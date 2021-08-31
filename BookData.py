@@ -10,5 +10,5 @@ if res.status_code == 200:
 
     with open('bookData.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, indent='\t', ensure_ascii=False)
-    # json_data = json.dumps(data)
+    # json_data = json.dumps(data) # dumps는 데이터 만들어놓고 Python상에서 계속 작업할 때
     # print(json_data)
